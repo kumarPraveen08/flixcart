@@ -3,61 +3,61 @@ export const categoriesData = [
     id: 1,
     name: "Home",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/18a00dd8cb47884d.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/115/115/image/84547ad774c36f8b.jpg?q=60",
   },
   {
     id: 2,
     name: "Gadgets",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/0492397449e17ed3.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/e0a451200c123fe4.jpg?q=60",
   },
   {
     id: 3,
     name: "Beauty",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/83ba03d54d13c193.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/d5cd0ad8ef4df6a9.jpg?q=60",
   },
   {
     id: 4,
     name: "Fashion",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/ef81f0d558e28785.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/5aa577a4ad5a5d5d.jpg?q=60",
   },
   {
     id: 5,
     name: "Mobiles",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/e70a833bef33e023.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/7ebf1f6c3688c06a.jpg?q=60",
   },
   {
     id: 6,
     name: "Vehicles",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/f16650118eeb2d0c.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/52917ca4752e81e3.jpg?q=60",
   },
   {
     id: 7,
     name: "Appliances",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/0d06f7f57666ea02.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/bada944cb0a1c2a0.jpg?q=60",
   },
   {
     id: 8,
     name: "Electronics",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/4a9b5861e488272c.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/e68bad51a1e08c9f.jpg?q=60",
   },
   {
     id: 9,
     name: "Sports",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/d1093d404ba12ebb.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/85bc48b160b9c39e.jpg?q=60",
   },
   {
     id: 10,
     name: "Food",
     image_uri:
-      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/916c69ce7fae622b.jpg?q=60",
+      "https://rukminim2.flixcart.com/fk-p-flap/121/121/image/76aeb4df0cb02e9c.jpg?q=60",
   },
 ];
 
