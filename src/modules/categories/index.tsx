@@ -14,8 +14,6 @@ import {getCategories} from './api/actions';
 import {RFValue} from 'react-native-responsive-fontsize';
 import {FONTS} from '@utils/Constants';
 import {navigate} from '@navigation/NavigationUtils';
-import axios from 'axios';
-import {BASE_URL} from '@store/config';
 
 const Categories = () => {
   const dispatch = useAppDispatch();
@@ -68,7 +66,7 @@ const Categories = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#E7F9EC',
+    backgroundColor: '#f4e9f2',
   },
   contentContainer: {
     padding: 10,

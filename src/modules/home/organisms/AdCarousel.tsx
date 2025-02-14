@@ -11,7 +11,7 @@ const AdCarousel: React.FC = ({data}: any) => {
   const baseOptions = {
     vertical: false,
     width: screenWidth,
-    height: screenWidth * 0.8,
+    height: screenWidth * 1.25,
   };
 
   return (

@@ -15,8 +15,6 @@ const Account = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [orders, setOrders] = useState<any[]>([]);
 
-  console.log(orders);
-
   const fetchOrder = async () => {
     const data = await getOrderByUserId(user?._id);
     if (data) {

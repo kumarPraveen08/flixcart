@@ -9,6 +9,7 @@ import Products from '@modules/products';
 import Cart from '@modules/cart';
 import Categories from '@modules/categories';
 import PaymentSuccess from '@modules/payment_success';
+import Account from '@modules/account';
 
 const Stack = createNativeStackNavigator();
 
@@ -26,6 +27,7 @@ const Navigation = () => {
         <Stack.Screen name="Cart" component={Cart} />
         <Stack.Screen name="Categories" component={Categories} />
         <Stack.Screen name="PaymentSuccess" component={PaymentSuccess} />
+        <Stack.Screen name="Account" component={Account} />
       </Stack.Navigator>
     </NavigationContainer>
   );

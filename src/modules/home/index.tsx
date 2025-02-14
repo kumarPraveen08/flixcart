@@ -1,7 +1,5 @@
 import {View, StyleSheet, Platform} from 'react-native';
-import React, {useEffect} from 'react';
-import {useAppDispatch, useAppSelector} from '@store/reduxHook';
-import {getHomeContent} from './api/actions';
+import React from 'react';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import Animated, {
   Extrapolation,

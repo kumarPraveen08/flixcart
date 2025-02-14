@@ -1,5 +1,5 @@
 export const menuData = [
-  {name: 'Kart', iconUri: require('../assets/icons/shopping.png')},
+  {name: 'Home', iconUri: require('../assets/icons/shopping.png')},
   {name: 'Grocery', iconUri: require('../assets/icons/grocery.png')},
   {name: 'Travel', iconUri: require('../assets/icons/travel.png')},
   {name: 'Pay', iconUri: require('../assets/icons/pay.png')},
@@ -28,61 +28,61 @@ export const categoriesData = [
     id: 1,
     name: 'Home',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/18a00dd8cb47884d.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/115/115/image/84547ad774c36f8b.jpg?q=60',
   },
   {
     id: 2,
     name: 'Gadgets',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/0492397449e17ed3.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/e0a451200c123fe4.jpg?q=60',
   },
   {
     id: 3,
     name: 'Beauty',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/83ba03d54d13c193.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/d5cd0ad8ef4df6a9.jpg?q=60',
   },
   {
     id: 4,
     name: 'Fashion',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/ef81f0d558e28785.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/5aa577a4ad5a5d5d.jpg?q=60',
   },
   {
     id: 5,
     name: 'Mobiles',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/e70a833bef33e023.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/7ebf1f6c3688c06a.jpg?q=60',
   },
   {
     id: 6,
     name: 'Vehicles',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/f16650118eeb2d0c.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/52917ca4752e81e3.jpg?q=60',
   },
   {
     id: 7,
     name: 'Appliances',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/0d06f7f57666ea02.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/bada944cb0a1c2a0.jpg?q=60',
   },
   {
     id: 8,
     name: 'Electronics',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/4a9b5861e488272c.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/e68bad51a1e08c9f.jpg?q=60',
   },
   {
     id: 9,
     name: 'Sports',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/d1093d404ba12ebb.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/85bc48b160b9c39e.jpg?q=60',
   },
   {
     id: 10,
     name: 'Food',
     image_uri:
-      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/916c69ce7fae622b.jpg?q=60',
+      'https://rukminim2.flixcart.com/fk-p-flap/121/121/image/76aeb4df0cb02e9c.jpg?q=60',
   },
 ];
 
@@ -92,22 +92,37 @@ export const dynamicDashboardData = [
     data: [
       {
         id: 1,
-        image_uri: require('@assets/images/banner-min.png'),
+        image_uri: require('@assets/images/banner1.webp'),
         path: '/ad1',
       },
       {
         id: 2,
-        image_uri: require('@assets/images/banner-min2.png'),
+        image_uri: require('@assets/images/banner2.webp'),
         path: '/ad2',
       },
       {
         id: 3,
-        image_uri: require('@assets/images/banner-min3.png'),
+        image_uri: require('@assets/images/banner3.jpg'),
         path: '/ad2',
       },
       {
         id: 4,
-        image_uri: require('@assets/images/banner-min4.png'),
+        image_uri: require('@assets/images/banner4.webp'),
+        path: '/ad2',
+      },
+      {
+        id: 5,
+        image_uri: require('@assets/images/banner5.webp'),
+        path: '/ad2',
+      },
+      {
+        id: 6,
+        image_uri: require('@assets/images/banner6.webp'),
+        path: '/ad2',
+      },
+      {
+        id: 7,
+        image_uri: require('@assets/images/banner7.webp'),
         path: '/ad2',
       },
     ],
@@ -122,52 +137,64 @@ export const dynamicDashboardData = [
       {
         id: 1,
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/820/180/image/c3ce8a2713d28788.jpeg?q=60',
+          'https://rukminim2.flixcart.com/fk-p-flap/820/180/image/7d8fdd77d9891dea.png?q=60',
         path: '/sponser1',
       },
     ],
   },
   {
     type: 'horizontal_list',
-    title: 'Best Deals',
+    title: 'Affordable Picks',
     data: [
       {
         id: 1,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/4d790d95eab9b756.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/d4f938eb92dd9a04.jpg?q=20',
       },
       {
         id: 2,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/d269de10795cd29e.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/a3d403cbe7efdc2d.jpg?q=20',
       },
       {
         id: 3,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/4ce286f7b3ddd5db.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/8cb095753a1e5673.jpg?q=20',
       },
       {
         id: 4,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/7723bd9e53937442.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/1b5282d7798ec329.jpg?q=20',
       },
       {
         id: 5,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/e6a8222e73b47590.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/0d76c096d1c6c0e1.jpg?q=20',
+      },
+      {
+        id: 6,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/996db66c29b1964f.jpg?q=20',
+      },
+      {
+        id: 7,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/7c0926deece93503.jpg?q=20',
       },
     ],
   },
   {
     type: 'vertical_list',
     title: 'BEST OF BRAND OFFERS',
-    bgColor: '#CDDEDA',
-    btnColor: '#2F4D4B',
+    bgColor: '#ffb9dd',
+    btnColor: '#fd0048',
     data: [
       {
         id: 1,
@@ -209,8 +236,44 @@ export const dynamicDashboardData = [
       {
         id: 1,
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/820/180/image/b0f876bac25c50b6.jpg?q=60',
+          'https://rukminim2.flixcart.com/fk-p-flap/820/180/image/70c971c0f02a8816.jpeg?q=60',
         path: '/sponser1',
+      },
+    ],
+  },
+  {
+    type: 'horizontal_list',
+    title: 'Best Deals',
+    data: [
+      {
+        id: 1,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/8b680ec9e2e45d27.jpg?q=20',
+      },
+      {
+        id: 2,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/4f2cbce6717e7b5c.jpg?q=20',
+      },
+      {
+        id: 3,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/47b4c7183efd010d.jpg?q=20',
+      },
+      {
+        id: 4,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/571c58cfd581d76f.jpg?q=20',
+      },
+      {
+        id: 5,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/e53aeb1cee654fad.jpg?q=20',
       },
     ],
   },
@@ -246,39 +309,51 @@ export const dynamicDashboardData = [
   },
   {
     type: 'horizontal_list',
-    title: 'Featured on Kart',
+    title: 'Featured on FlixKart',
     data: [
       {
         id: 1,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/a346fdef9457ab5e.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/f07981da8b7896ae.png?q=20',
       },
       {
         id: 2,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/1bd8d123afe6cd26.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/dc55015cfd909097.png?q=20',
       },
       {
         id: 3,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/725a60752b6ac21d.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/7ac101e909576a8f.jpg?q=20',
       },
       {
         id: 4,
         path: '',
         image_uri:
-          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/2b990fef244e3d2f.jpg?q=20',
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/b5ad94b1d3f1b3cf.jpg?q=20',
+      },
+      {
+        id: 5,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/991f314e78db5d46.jpg?q=20',
+      },
+      {
+        id: 6,
+        path: '',
+        image_uri:
+          'https://rukminim2.flixcart.com/fk-p-flap/480/720/image/63abd78b081fd414.jpg?q=20',
       },
     ],
   },
   {
     type: 'vertical_list',
     title: 'BEST OF BRAND OFFERS',
-    bgColor: '#DCD2A2',
-    btnColor: '#5C5037',
+    bgColor: '#ffb9dd',
+    btnColor: '#fd0048',
     data: [
       {
         id: 1,
