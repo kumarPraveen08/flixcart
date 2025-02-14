@@ -12,7 +12,7 @@ const Splash: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Image source={require('@assets/images/logo_t.png')} style={styles.img} />
+      <Image source={require('@assets/images/f_logo.png')} style={styles.img} />
     </View>
   );
 };
